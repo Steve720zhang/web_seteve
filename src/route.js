@@ -5,6 +5,9 @@ export default function (router) {
     },
     '/two': {
       component: require('./components/App.vue')
+    },
+    '/chart': {
+      component: require('./components/chart.vue')
     }
   })
 }

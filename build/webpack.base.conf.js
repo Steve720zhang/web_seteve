@@ -7,6 +7,10 @@ module.exports = {
   entry: {
     app: './src/main.js'
   },
+  //  chart.js 在此引入
+  externals: {
+    Chart: 'Chart'
+  },
   output: {
     path: config.build.assetsRoot,
     publicPath: process.env.NODE_ENV === 'production' ? config.build.assetsPublicPath : config.dev.assetsPublicPath,

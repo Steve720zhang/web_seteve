@@ -15,20 +15,6 @@ export default {
 </script>
 
 <style>
-	html {
-		height: 100%;
-		background-color: #d9edf7;
-	}
-
-	body {
-		display: flex;
-		justify-content: center;
-		width: 1000px;
-		margin: auto;
-		background-color: seashell;
-		height: 100%;
-	}
-
 	.logo {
 		width: 100px;
 		height: 100px

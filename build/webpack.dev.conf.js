@@ -14,6 +14,10 @@ module.exports = merge(baseWebpackConfig, {
   module: {
     loaders: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap })
   },
+  //  chart.js 在此引入
+  externals: {
+    Chart: 'Chart'
+  },
   // eval-source-map is faster for development
   devtool: '#eval-source-map',
   plugins: [
