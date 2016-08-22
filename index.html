@@ -6,9 +6,12 @@
 	<title>张泽群</title>
 </head>
 <body>
-<div id="app">
+<div id="app" style="max-width: 1200px;margin: auto;">
 	<router-view></router-view>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.min.js"></script>
+	<script>
+		window.sw = document.body.offsetWidth
+	</script>
 </div>
 </body>
 </html>

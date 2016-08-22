@@ -1,7 +1,7 @@
 <template>
 	<div style="display:flex;flex-direction:column">
-		<button class="btn btn-default btn-lg" v-link="{ path: '/two'}">two</button>
-		<button class="btn btn-default btn-lg" v-link="{ path: '/chart'}">two</button>
+		<button class="btn btn-default btn-lg" style="margin: 10px" v-link="{ path: '/app'}">主页</button>
+		<button class="btn btn-default btn-lg" style="margin: 10px" v-link="{ path: '/chart'}">Test页</button>
 	</div>
 </template>
 <script>

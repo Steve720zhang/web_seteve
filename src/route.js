@@ -3,7 +3,7 @@ export default function (router) {
     '/': {
       component: require('./components/Index.vue')
     },
-    '/two': {
+    '/app': {
       component: require('./components/App.vue')
     },
     '/chart': {
