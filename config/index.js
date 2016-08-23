@@ -9,7 +9,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     // 下面两行的区别在于：'/'是本地无法预览，需要server环境才能观看，''可以双击打开index.html直接看
     // assetsPublicPath: '',
-    assetsPublicPath: '/app',
+    assetsPublicPath: '/',
     productionSourceMap: true,
     // Gzip off by default as many popular static hosts such as
     // Surge or Netlify already gzip all static assets for you.
